@@ -1,0 +1,28 @@
+[debug] [2019-04-04T16:37:22.812Z] ----------------------------------------------------------------------
+[debug] [2019-04-04T16:37:22.815Z] Command:       /Users/jramsey/.nodenv/versions/6.10.0/bin/node /Users/jramsey/.nodenv/versions/6.10.0/bin/firebase serve
+[debug] [2019-04-04T16:37:22.815Z] CLI Version:   4.2.1
+[debug] [2019-04-04T16:37:22.815Z] Platform:      darwin
+[debug] [2019-04-04T16:37:22.816Z] Node Version:  v6.10.0
+[debug] [2019-04-04T16:37:22.816Z] Time:          Thu Apr 04 2019 10:37:22 GMT-0600 (MDT)
+[debug] [2019-04-04T16:37:22.816Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-04T16:37:22.833Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-04T16:37:22.833Z] > authorizing via signed-in user
+[debug] [2019-04-04T16:37:22.835Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-04-04T16:37:22.835Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+
+[debug] [2019-04-04T16:37:23.031Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-04T16:37:23.034Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/prep-right-painting  
+ 
+[debug] [2019-04-04T16:37:23.594Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-04T16:37:23.596Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/prep-right-painting  
+ 
+[debug] [2019-04-04T16:37:23.990Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/jramsey/Documents/mine/projects/prep-right-painting'...
+[info] 
+[debug] [2019-04-04T16:37:23.993Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/325906740849/clients/_:getWebAppConfig  
+ 
+[debug] [2019-04-04T16:37:24.506Z] <<< HTTP RESPONSE 200
+[info] i  hosting[prep-right-painting]: Serving hosting files from: app
+[info] ✔  hosting[prep-right-painting]: Local server: http://localhost:5000
